@@ -1,0 +1,18 @@
+# Example .env file configuration
+# Copy this file to .env and replace with your actual API key
+
+# OpenAI API Configuration
+OPENAI_API_KEY=your_actual_openai_api_key_here
+
+# Optional: Model configuration
+# OPENAI_MODEL=gpt-4.1
+# OPENAI_TEMPERATURE=0.7
+
+# Optional: LangSmith configuration for tracing
+# LANGCHAIN_TRACING_V2=true
+# LANGCHAIN_ENDPOINT=https://api.smith.langchain.com
+# LANGCHAIN_API_KEY=your_langsmith_api_key_here
+# LANGCHAIN_PROJECT=your_project_name
+
+# Tavily API Configuration
+TAVILY_API_KEY=your_actual_tavily_api_key_here
