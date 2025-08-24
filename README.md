@@ -48,3 +48,7 @@ cd .\01_learn_langgraph_basics\studio\
 langgraph dev
 ```
 
+## Step 3 - [Graph API concepts](https://docs.langchain.com/oss/python/graph-api)
+
+Read [Use the graph API](https://docs.langchain.com/oss/python/use-graph-api) as well.
+
