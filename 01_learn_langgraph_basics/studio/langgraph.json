@@ -1,0 +1,16 @@
+{
+  "dockerfile_lines": [],
+  "graphs": {
+    "01_build_a_basic_chatbot": "./01_build_a_basic_chatbot.py:graph",
+    "02_add_tools": "./02_add_tools.py:graph",
+    "03_add_memory": "./03_add_memory.py:graph",
+    "04_human_in_the_loop": "./04_human_in_the_loop.py:graph",
+    "05_customize_state": "./05_customize_state.py:graph",
+    "06_time_travel": "./06_time_travel.py:graph"
+  },
+  "env": "./.env",
+  "python_version": "3.11",
+  "dependencies": [
+    "."
+  ]
+}

@@ -40,3 +40,11 @@ Sign up for LangSmith to quickly spot issues and improve the performance of your
 
 Use `ipynb` files to run the notebooks
 
+## Step 2 - Converted them to python code to test on LangGraph Studio
+
+```bash
+cd .\01_learn_langgraph_basics\studio\ 
+
+langgraph dev
+```
+
