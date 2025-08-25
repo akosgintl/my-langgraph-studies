@@ -16,3 +16,6 @@ OPENAI_API_KEY=your_actual_openai_api_key_here
 
 # Tavily API Configuration
 TAVILY_API_KEY=your_actual_tavily_api_key_here
+
+# Anthropic API Configuration
+ANTHROPIC_API_KEY=your_actual_anthropic_api_key_here

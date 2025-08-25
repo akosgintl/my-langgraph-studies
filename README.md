@@ -52,3 +52,21 @@ langgraph dev
 
 Read [Use the graph API](https://docs.langchain.com/oss/python/use-graph-api) as well.
 
+## Step 4 - [Workflows and Agents](https://langchain-ai.github.io/langgraph/tutorials/workflows/)
+
+Watch [YouTube](https://www.youtube.com/watch?v=aHCDrAbH_go) video.
+
+1. Augmented LLMs
+2. Prompt chaining
+3. Parallelization
+4. Routing
+5. Orchestrator-worker
+6. Evaluator-optimizer
+7. Agent coded
+8. Agent pre-built
+
+```bash
+cd .\02_workflows_and_agents\studio\
+
+langgraph dev
+```

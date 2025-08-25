@@ -1,0 +1,17 @@
+{
+  "dockerfile_lines": [],
+  "graphs": {
+    "07_02_agent_prebuilt": "./07_02_agent_prebuilt.py:agent",
+    "07_01_agent_coded": "./07_01_agent_coded.py:agent",
+    "06_evaluator_optimizer": "./06_evaluator_optimizer.py:optimizer_workflow",
+    "05_orchestrator_worker": "./05_orchestrator_worker.py:orchestrator_worker",
+    "04_routing": "./04_routing.py:router_workflow",
+    "03_parallelization": "./03_parallelization.py:parallel_workflow",
+    "02_prompt_chaining": "./02_prompt_chaining.py:chain"
+  },
+  "env": "./.env",
+  "python_version": "3.12",
+  "dependencies": [
+    "."
+  ]
+}
