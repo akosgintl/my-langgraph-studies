@@ -1,0 +1,16 @@
+{
+  "dockerfile_lines": [],
+  "graphs": {
+    "06_context_offloading": "./06_context_offloading.py:agent",
+    "05_context_summarization": "./05_context_summarization.py:agent",
+    "04_context_pruning": "./04_context_pruning.py:agent",
+    "03_context_quarantine": "./03_context_quarantine.py:agent",
+    "02_tool_loadout": "./02_tool_loadout.py:agent",
+    "01_rag": "./01_rag.py:agent"
+    },
+  "env": "./.env",
+  "python_version": "3.12",
+  "dependencies": [
+    "."
+  ]
+}

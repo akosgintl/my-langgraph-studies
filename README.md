@@ -70,3 +70,20 @@ cd .\02_workflows_and_agents\studio\
 
 langgraph dev
 ```
+
+## Step 5 - [How to fix your context](https://github.com/langchain-ai/how_to_fix_your_context)
+
+Implemented in python.
+
+1. [Agentic RAG](https://langchain-ai.github.io/langgraph/tutorials/rag/langgraph_agentic_rag/)
+2. Tool loadout
+3. Context quarantine
+4. Context pruning
+5. Context summarization
+6. Context offloading
+
+```bash
+cd .\03_how_to_fix_your_context\studio\
+
+langgraph dev
+```

@@ -10,7 +10,3 @@ langgraph-cli[inmem]
 langchain-anthropic
 langchain-community
 beautifulsoup4
-rich
-langgraph_bigtool
-langgraph_supervisor
-
