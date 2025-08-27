@@ -91,3 +91,7 @@ langgraph dev
 ## Step 6 - [Foundation: Introduction to LangGraph] (https://academy.langchain.com/courses/take/intro-to-langgraph/lessons/58238107-course-overview) by LangChain Academy
 
 See the [Module structure](./04_foundation_introduction_to_langgraph/module_structure.md)
+
+
+## Step 7 - LangGraph studies
+
