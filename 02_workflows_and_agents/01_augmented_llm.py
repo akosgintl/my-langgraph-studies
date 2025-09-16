@@ -2,6 +2,7 @@ from pydantic import BaseModel, Field
 from langchain_openai import ChatOpenAI
 from util import get_openai_api_key
 from pprint import pprint
+from langchain_core.tools import tool
 
 
 # Initialize the LLM
@@ -38,14 +39,23 @@ pprint(output, indent=0, compact=True)
 def multiply(a: int, b: int) -> int:
     return a * b
 
-
 # Augment the LLM with tools
 llm_with_tools = llm.bind_tools([multiply])
 
+# parallel tool calls FALSE means the LLM will only use one tool at a time
+# parallel tool calls TRUE means the LLM will use all tools at once
+
 
 # Invoke the LLM with input that triggers the tool call
-output = llm_with_tools.invoke("What is 2 times 3?")
+output = llm_with_tools.invoke("What is 2 times 3?")   
 
+# DOES NOT really WORK with parallel tool calls
+# output = llm_with_tools.invoke("What is ((2 + 3) * 4 / 5) - 6?")
+# output = llm_with_tools.invoke("What is (2 + 3), then multiply by 4, then divide by 5, then subtract 6?")
+
+# WORKS (sometimes if LLM does the maths) with this example:
+# STILL NOT ALWAYS WORKING
+# output = llm_with_tools.invoke("What is (2 + 3) times 4, divided by 2, minus 1?")
 
 # Print the tool call
 print("--------------------------------")
