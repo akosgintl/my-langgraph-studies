@@ -91,3 +91,22 @@ langgraph dev
 ## Step 6 - [Foundation: Introduction to LangGraph](https://academy.langchain.com/courses/take/intro-to-langgraph/lessons/58238107-course-overview) by LangChain Academy
 
 See the [Module structure](./04_foundation_introduction_to_langgraph/module_structure.md)
+
+
+## Step 7 - LangChain Tutorials
+
+Based on [this](https://github.com/langchain-ai/langchain/tree/master/docs/docs/tutorials)
+
+See [index.md](./05_langchain_tutorials/index.md)
+
+
+## Step 8 - LangChain v1 (1.0.0a5)
+
+Switched to [uv](https://docs.astral.sh/uv/)
+
+Based on [this](https://docs.langchain.com/oss/python/langchain/quickstart)
+
+
+## Step 9 - LangChain middleware (1.0.0a5)
+
+Based in [this](https://docs.langchain.com/oss/python/langchain/middleware)

@@ -1,8 +1,8 @@
-langgraph>=0.2.0
-langsmith>=0.1.0
-langchain>=0.2.0
-langchain-openai>=0.1.0
-langchain-core>=0.2.0
+langgraph
+langsmith
+langchain
+langchain-openai
+langchain-core
 ipykernel
 python-dotenv
 langchain-tavily
@@ -13,4 +13,5 @@ beautifulsoup4
 rich
 langgraph_bigtool
 langgraph_supervisor
-
+langgraph_prebuilt
+notebook
