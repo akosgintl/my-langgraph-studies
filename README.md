@@ -110,3 +110,8 @@ Based on [this](https://docs.langchain.com/oss/python/langchain/quickstart)
 ## Step 9 - LangChain middleware (1.0.0a5)
 
 Based in [this](https://docs.langchain.com/oss/python/langchain/middleware)
+
+
+## Step 10 - DeepAgent with Human-in-the-Loop
+
+Based on [this](https://www.youtube.com/watch?v=ET8uzwF8Q0A) video.
